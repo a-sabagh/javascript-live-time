@@ -1,0 +1,25 @@
+@font-face {
+  font-family: digital;
+  src: url("fonts/digital.ttf");
+}
+body {
+	background-image: url("img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 95vh;
+}
+#timedate {
+  color:#fff;
+  font-size: 3.5em;
+}
+#timedate a {
+	font-family: digital;
+    background: rgba(0,0,0,0.6);
+    width: 1.7em;
+    display: inline-block;
+    text-align: center;
+	border-radius: 5px;
+}
